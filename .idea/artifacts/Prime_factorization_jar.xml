@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Prime factorization:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Prime_factorization_jar</output-path>
+    <root id="archive" name="Prime factorization.jar">
+      <element id="module-output" name="Prime factorization" />
+    </root>
+  </artifact>
+</component>

@@ -10,7 +10,7 @@ public class Main {
     private static ArrayList<Long>numbers=new ArrayList<>();
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         System.out.println("Enter a natural number:");
         Scanner in=new Scanner(System.in);
@@ -19,6 +19,7 @@ public class Main {
         factorize(number);
 
         System.out.println(factorization);
+        Thread.sleep(30000);
     }
 
 
